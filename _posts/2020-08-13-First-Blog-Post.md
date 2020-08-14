@@ -2,6 +2,7 @@
 layout: post
 title: First Post
 ---
+
 After spending a couple of years lurking on the datascience subreddit, it's pretty clear to me that the scope-of-work for a datascientist is going to change depending on who you ask.  However the exact job description and pay grade shakes out, data scientists are the folks trying to navigate the 21st Century intersection of three things:
 
 1) Data is available in volumes far larger than ever before, and we're still trying to figure out all of the applications for it.  What are the applications? Are there new datastreams that would facilitate work already being done?  This is where domain knowledge comes into play, identifying where the most value is for data.
