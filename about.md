@@ -12,5 +12,5 @@ I am a Semiconductor Product Engineer with a Bachelor of Engineering in Engineer
 * Automating daily report e-mails using Python Scripts triggered by Windows Task Scheduler
 * Coursework in R, SAS, C++, Java
 
-When I'm not sitting in front of a computer, you can find me joyriding around western North Carolina.
+When I'm not sitting in front of a computer, you can find me joyriding around western North Carolina.  
 ![Pic](/images/Pic for Profile_Resized.jpg)
