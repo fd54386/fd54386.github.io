@@ -28,11 +28,11 @@ print(x * y )
 ```  
 Well, that's an error, but you can at least infer it's going to do the element-wise operations in chunks when the dimensions do match up.
 
-``r
+```r
 x<- c(1,5,7,4)
 y<- c(1,2)
 print(x * y )
-``  
+```
   At the end of the day, with all of the data analysis and operations that go into R, it is useful have these operators pre-defined.  In another language, you'd have to write that loop yourself to iterate across every element.  Sure you could define your own operator or function so that you'd only have to write it once, but you would have to write it.  
   
   The downside is, particularly since objects aren't strongly typed -- it takes a lot of practice to know what dimensions are going to be returned.  If I call the `mean` function on a dataframe, is it going to go column-wise and give me a mean for every field? Or maybe it's going to average every column?
