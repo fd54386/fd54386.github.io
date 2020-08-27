@@ -3,9 +3,6 @@ layout: post
 title: "R in Data Science"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
   I've worked with several programming languages over my career.  Usually the choice of languages is driven by the answer to "Which language has the most relevant library already?"  Strong secondary considerations are "Is there a good IDE for it?", "Is it strongly typed?" (Strong typing is easier to troubleshoot), and "Does everyone else in the team already work with it and have the appropriate licensing?" are strong secondary factors.  Speed is thus far a distant third, but there are usually options to offload work to servers in SQL / Spark or to call functions written in C as necessary.
 
   In the context of R vs Python for datascience, R pulls ahead for me. Both have very good datascience libraries -- Python tends to be ahead with most of the machine learning packages, but R has decades of statistical package development and is still the go-to for Statistics academics.  Each have ongoing work to balance out the differences, but R's statistics packages make it a lot easier to explore and run diagnostics on data.  RStudio is a strong point in R's favor as a mature IDE, and the cheatsheets they put out for popular R packages save a lot of time digging through documentation.   Python on the other hand has a lot of environment competitors -- at some point I'll have to take a day and try all of them to have an informed opinion, but I've yet to find one that feels easy to navigate. The other points are a wash -- neither is strongly typed.  Both R and Python have minimal licensing issues compared to SAS. If a team doesn't yet have a preference, you can download and try them both without needing to cut a check.  
