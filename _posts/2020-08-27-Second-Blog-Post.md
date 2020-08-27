@@ -28,15 +28,15 @@ print(x * y )
 ```  
 Well, that's an error, but you can at least infer it's going to do the element-wise operations in chunks when the dimensions do match up.
 
-```r
+``r
 x<- c(1,5,7,4)
 y<- c(1,2)
 print(x * y )
-```  
+``  
   At the end of the day, with all of the data analysis and operations that go into R, it is useful have these operators pre-defined.  In another language, you'd have to write that loop yourself to iterate across every element.  Sure you could define your own operator or function so that you'd only have to write it once, but you would have to write it.  
   
   The downside is, particularly since objects aren't strongly typed -- it takes a lot of practice to know what dimensions are going to be returned.  If I call the `mean` function on a dataframe, is it going to go column-wise and give me a mean for every field? Or maybe it's going to average every column?
 ```r
 mean(iris)
 ```
-  Nope, doesn't work at all.  Per `help(mean)`, the function supposedly takes 'An R object.' But it apparently doesn't work with a list of vectors.  Turns out you needed `colMeans()` to input a dataframe and get column-wise results.  Strongly typed languages don't really have this problem -- they have to be much more explicit about what sort of inputs and outputs you get.  While vectorized functions do save some keypresses, they do make design a little more experimental.
+  Nope, doesn't work at all.  Per `help(mean)`, the function supposedly takes 'An R object.' But it apparently doesn't work with a list of vectors.  Turns out you needed `colMeans()` to input a dataframe and get column-wise results.  This adds a bit of guesswork into your code design if you don't have experience with the functions.  Strongly typed languages don't really have this problem -- they have to be explicit about input and output types. There are always going to be quirks and bugs to work out whatever language you use, but with enough work you've got a robust & polished product.  For now, R presents a new and interesting set of design decisions.
