@@ -4,8 +4,7 @@ title: "NHL API Interface Development Reflection"
 ---
 
 This is a reflection regarding a [recently completed
-vignette](https://fd54386.github.io/NHL-API-Interface) to write a few
-hooks into two NHL APIs. For these APIs there is no official
+vignette](https://fd54386.github.io/NHL-API-Interface) for my [repository](https://github.com/fd54386/NHL-API-Interface) to hook into two NHL APIs. For these APIs there is no official
 documentation, just limited community documentation available through
 other
 [blogs](https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api)
