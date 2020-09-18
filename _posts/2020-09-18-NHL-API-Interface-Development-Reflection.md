@@ -16,7 +16,7 @@ goals and assists, but not many people named after him.
 This was an awkward function set and analysis to pull together in the
 context of the academic assignment. The functions needed to be able to
 pull for both a common name and TeamID, however the team and
-franchiseIDs swap out between tables. My initial approach was to use one
+franchiseIDs are not equivalent and swap out between tables. My initial approach was to use one
 helper function that built the entire modifier – it should have been
 simple enough, but I quickly ran into the issue of field names changing
 across endpoints. I wound up needing modifiers that were endpoint
