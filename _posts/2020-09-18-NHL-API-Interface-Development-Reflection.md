@@ -1,5 +1,7 @@
-NHL API Interface Development Reflection
-================
+---
+layout: post
+title: "NHL API Interface Development Reflection"
+---
 
 This is a reflection regarding a [recently completed
 vignette](https://fd54386.github.io/NHL-API-Interface) to write a few
